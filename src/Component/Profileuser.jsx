@@ -14,8 +14,8 @@ const Profileuser = () => {
             <p>Annette Black</p>
       </div>
       <div className='icon'>
-        <img src={icon1} />
-        <img src={icon2} />
+        <img src={icon1} alt="icon" />
+        <img src={icon2} alt='ncjvd' />
       </div>
     </div>
   )

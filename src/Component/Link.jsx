@@ -39,7 +39,7 @@ const Link = () => {
   return (
     <div className='app__links'>
         {weblinks.map(({ name, weblink, id, index }) => 
-            <div key={index} className='links'>
+            <div key={id} className='links'>
                 <a 
                   id={id} 
                   href={weblink}

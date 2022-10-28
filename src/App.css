@@ -26,7 +26,7 @@
   margin: 70px auto;
   width: 90%;
 }
-.profile__img{
+#profile__img{
   position: relative;
 }
 
@@ -78,11 +78,11 @@
   display: none;
 }
 
-.profile__img div{
+#profile__img div{
   display: grid;
   place-content: center;
 }
-.profile__img p{
+#profile__img p{
   font-size: 20px;
   font-weight: 700;
   margin-top: 10px;
@@ -182,7 +182,7 @@ a:hover{
     display:block;
   }
   
-  .profile__img p{
+  #profile__img p{
     font-size: 18px;
     line-height: 25px;
   }

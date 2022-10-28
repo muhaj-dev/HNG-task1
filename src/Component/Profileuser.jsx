@@ -6,7 +6,7 @@ import icon2 from "../Assest/threedots.svg"
 
 const Profileuser = () => {
   return (
-    <div className='profile__img' id="profile__img">
+    <div id="profile__img">
         <div>
             <div>
                 <img src={pimg}  alt="jbcj"/>

@@ -111,6 +111,11 @@
   border-radius: 6px;
 }
 
+a:focus{
+  border: 3px solid var(--text-grey);
+  background-color: var(--light-grey);
+}
+
 a:hover{
   background-color: var(--hover);
 }

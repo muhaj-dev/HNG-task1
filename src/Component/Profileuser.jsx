@@ -9,7 +9,7 @@ const Profileuser = () => {
     <div className='profile__img' id="profile__img">
         <div>
             <div>
-                <img src={pimg} />
+                <img src={pimg}  alt="jbcj"/>
             </div>
             <p>Annette Black</p>
       </div>

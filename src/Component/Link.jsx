@@ -5,8 +5,8 @@ import React from 'react'
 const weblinks = [
     {
         name: "Twitter Link",
-        weblink: "https://twitter.com/hnginternship",
-        id: "btn__twitter"
+        weblink: " https://twitter.com/muhaj_dev",
+        id: "twitter"
       },
       {
         name: "Zuri Team",
@@ -25,7 +25,7 @@ const weblinks = [
       },
       {
         name: "Background Check for Coders",
-        weblink: "https://background.zuri.team",
+        weblink: "https://backgroundcheck.zuri.team/",
         id: "pitch"
       },
       {
@@ -41,10 +41,11 @@ const Link = () => {
         {weblinks.map(({ name, weblink, id, index }) => 
             <div key={index} className='links'>
                 <a 
-                    id={id} 
-                    
-                    href={weblink}
-                >{name}</a>
+                  id={id} 
+                  href={weblink}
+                >
+                  {name}
+                </a>
             </div>
         )}
     </div>

@@ -23,6 +23,53 @@
   margin: 70px auto;
   width: 90%;
 }
+.profile__img{
+  position: relative;
+}
+
+.icon{
+  position: absolute;
+  top: 0;
+  left: 75%;
+}
+
+.icon:hover::before {
+  content: 'share';
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: var(--dark-grey);
+  position: absolute;
+  top: 10px;
+  left: -70px;
+}
+
+.icon:hover::after{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background-color: var(--dark-grey);
+  position: absolute;
+  top: 20px;
+  left: -14px;
+  transform: rotate(45deg);
+}
+
+.icon img {
+  border-radius: 50%;
+  border: 1px solid var(--light-grey);
+  padding: 4px;
+}
+
+.icon img:nth-child(1) {
+  display: block;
+}
+
+.icon img:nth-child(2) {
+  display: none;
+}
 
 .profile__img div{
   display: grid;
@@ -115,6 +162,14 @@ a:hover{
     width: 95%;
   }
 
+  .icon img:nth-child(1) {
+    display: none;
+  }
+  
+  .icon img:nth-child(2) {
+    display:block;
+  }
+  
   .profile__img p{
     font-size: 18px;
     line-height: 25px;

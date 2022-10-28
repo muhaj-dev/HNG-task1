@@ -9,6 +9,9 @@
   font-family: 'Inter', sans-serif;
 }
 
+#slack {
+  display: none;
+}
 :root {
   --light-grey: #EAECF0;
   --dark-grey: #101828;

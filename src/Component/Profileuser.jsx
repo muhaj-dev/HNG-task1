@@ -12,6 +12,7 @@ const Profileuser = () => {
                 <img src={pimg}  alt="jbcj"/>
             </div>
             <p>Annette Black</p>
+            <p id="slack">@muhaj</p>
       </div>
       <div className='icon'>
         <img src={icon1} alt="icon" />
